@@ -1,11 +1,11 @@
 import httplib2
 
-from person import Person
-from device import Device
-from zone import Zone
-from schedulerule import Schedulerule
-from flexschedulerule import FlexSchedulerule
-from notification import Notification
+from .person import Person
+from .device import Device
+from .zone import Zone
+from .schedulerule import Schedulerule
+from .flexschedulerule import FlexSchedulerule
+from .notification import Notification
 
 class Rachio(object):
 	def __init__(self, authtoken):
